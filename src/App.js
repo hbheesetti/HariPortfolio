@@ -1,16 +1,16 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Calendar from "./calendar";
 import Portfolio from "./portfolio";
 
 function App() {
 	return (
 		<div className="App">
-			<BrowserRouter>
+			<HashRouter>
 				<Routes>
 					<Route path="/" element={<Portfolio />} />
 					<Route path="/calendar" element={<Calendar />} />
 				</Routes>
-			</BrowserRouter>
+			</HashRouter>
 		</div>
 	);
 }
