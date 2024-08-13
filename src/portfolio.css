@@ -271,67 +271,6 @@
 	text-align: center;
 }
 
-.word > .letter {
-	display: inline-block;
-	transition: transform 0.3s;
-}
-
-.word:hover > .letter:nth-child(1) {
-	transform: translate(-80%, -20%) rotate(8deg);
-}
-
-.word:hover > .letter:nth-child(2) {
-	transform: translate(-40%, 20%) rotate(4deg);
-}
-
-.word:hover > .letter:nth-child(3) {
-	transform: translate(-10%, -15%) rotate(-6deg);
-}
-
-.word:hover > .letter:nth-child(4) {
-	transform: translate(0%, 8%) rotate(-8deg);
-}
-
-.word:hover > .letter:nth-child(5) {
-	transform: translate(0%, -20%) rotate(5deg);
-}
-
-.word:hover > .letter:nth-child(6) {
-	transform: translate(0%, 20%) rotate(-4deg);
-}
-
-.word:hover > .letter:nth-child(7) {
-	transform: translate(0%, -40%) rotate(-7deg);
-}
-
-.word:hover > .letter:nth-child(8) {
-	transform: translate(0%, 15%) rotate(10deg);
-}
-
-.word:hover > .letter:nth-child(9) {
-	transform: translate(0%, -50%) rotate(8deg);
-}
-
-.word:hover > .letter:nth-child(10) {
-	transform: translate(0%, 15%) rotate(-6deg);
-}
-
-.word:hover > .letter:nth-child(11) {
-	transform: translate(50%, -10%) rotate(-3deg);
-}
-
-.word:hover > .letter:nth-child(12) {
-	transform: translate(120%, -30%) rotate(-10deg);
-}
-
-.word:hover > .letter:nth-child(13) {
-	transform: translate(25%, 20%) rotate(8deg);
-}
-
-.word:hover > .letter:nth-child(14) {
-	transform: translate(-6%, 40%) rotate(-8deg);
-}
-
 @keyframes rotate {
 	from {
 		rotate: 0deg;

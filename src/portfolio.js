@@ -57,14 +57,19 @@ function Portfolio() {
 								letterSpacing: "-1.2px",
 								color: "rgba(93, 183, 222, 1)",
 								fontWeight: "bold",
-								display: "flex",
+								display: "inline-block",
 							}}
 						>
-							<p class="word">
+							<div style={{ marginTop: "20px" }}>
+								Hari Bheesetti
+							</div>
+							{/* <span class="word">
 								<span class="letter">H</span>
 								<span class="letter">a</span>
 								<span class="letter">r</span>
-								<span class="letter">i</span>{" "}
+								<span class="letter">i</span>
+							</span>
+							<span class="word">
 								<span class="letter">B</span>
 								<span class="letter">h</span>
 								<span class="letter">e</span>
@@ -74,7 +79,7 @@ function Portfolio() {
 								<span class="letter">t</span>
 								<span class="letter">t</span>
 								<span class="letter">i</span>
-							</p>
+							</span> */}
 						</div>
 						<div
 							style={{
