@@ -1,21 +1,31 @@
 {
   "files": {
-    "main.css": "/HariPortfolio/static/css/main.9c3d79e8.css",
-    "main.js": "/HariPortfolio/static/js/main.d6b44005.js",
+    "main.css": "/HariPortfolio/static/css/main.d5155853.css",
+    "main.js": "/HariPortfolio/static/js/main.6b38bb0e.js",
     "static/js/453.1407b060.chunk.js": "/HariPortfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Screenshot (11).png": "/HariPortfolio/static/media/Screenshot (11).42d3dbed1271b661e821.png",
+    "static/media/Screenshot (9).png": "/HariPortfolio/static/media/Screenshot (9).d879cee15e49d8b4da60.png",
+    "static/media/Screenshot (7).png": "/HariPortfolio/static/media/Screenshot (7).73d8c6d941de3ff332ec.png",
+    "static/media/Screenshot (6).png": "/HariPortfolio/static/media/Screenshot (6).c728fd47db740760c6f7.png",
+    "static/media/Screenshot (10).png": "/HariPortfolio/static/media/Screenshot (10).ee698a3ea9675f32340f.png",
+    "static/media/Screenshot (8).png": "/HariPortfolio/static/media/Screenshot (8).008a9dbfea6418631b85.png",
+    "static/media/Screenshot (4).png": "/HariPortfolio/static/media/Screenshot (4).1725b0095220f711f888.png",
+    "static/media/Screenshot (5).png": "/HariPortfolio/static/media/Screenshot (5).b908d4d4138f9e361f5c.png",
+    "static/media/Screenshot (3).png": "/HariPortfolio/static/media/Screenshot (3).de7e6fcfbd61c188e87b.png",
     "static/media/inconsolata-latin-ext-400-normal.woff2": "/HariPortfolio/static/media/inconsolata-latin-ext-400-normal.2797b9444aad7441c028.woff2",
     "static/media/inconsolata-latin-400-normal.woff2": "/HariPortfolio/static/media/inconsolata-latin-400-normal.738ff90c95338de11321.woff2",
     "static/media/inconsolata-latin-ext-400-normal.woff": "/HariPortfolio/static/media/inconsolata-latin-ext-400-normal.6fc9fdb58b5cd307c989.woff",
     "static/media/inconsolata-latin-400-normal.woff": "/HariPortfolio/static/media/inconsolata-latin-400-normal.4fa2aac79e0f9b9bda38.woff",
+    "static/media/Screenshot (2).png": "/HariPortfolio/static/media/Screenshot (2).d763e3cc9e4f9fc121ea.png",
     "static/media/inconsolata-vietnamese-400-normal.woff2": "/HariPortfolio/static/media/inconsolata-vietnamese-400-normal.22f36d4ded7995a21f3e.woff2",
     "static/media/inconsolata-vietnamese-400-normal.woff": "/HariPortfolio/static/media/inconsolata-vietnamese-400-normal.e5e7f8cea30d31943ace.woff",
     "index.html": "/HariPortfolio/index.html",
-    "main.9c3d79e8.css.map": "/HariPortfolio/static/css/main.9c3d79e8.css.map",
-    "main.d6b44005.js.map": "/HariPortfolio/static/js/main.d6b44005.js.map",
+    "main.d5155853.css.map": "/HariPortfolio/static/css/main.d5155853.css.map",
+    "main.6b38bb0e.js.map": "/HariPortfolio/static/js/main.6b38bb0e.js.map",
     "453.1407b060.chunk.js.map": "/HariPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c3d79e8.css",
-    "static/js/main.d6b44005.js"
+    "static/css/main.d5155853.css",
+    "static/js/main.6b38bb0e.js"
   ]
 }
