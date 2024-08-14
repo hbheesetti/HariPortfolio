@@ -392,16 +392,16 @@ function Portfolio() {
 								<p
 									className="expTitle"
 									style={hover3}
-									onClick={() => navigate("/disclaimer")}
+									onClick={() => navigate("disclaimer/")}
 								>
 									Job Management | Demo
-									{/* <HiOutlineExternalLink
+									<HiOutlineExternalLink
 										style={{
 											marginLeft: "3px",
 											position: "absolute",
 											bottom: "3px",
 										}}
-									/> */}
+									/>
 								</p>
 								<p>
 									This is freelance project where I was tasked
