@@ -16,7 +16,7 @@ function Portfolio() {
 	const [hover4, setHover4] = useState({});
 	const [hover5, setHover5] = useState({});
 	const [hover6, setHover6] = useState({});
-	const [hover7, setHover7] = useState({});
+	const [hover7, setHover7] = useState({ fontStyle: "italic" });
 	let navigate = useNavigate();
 
 	const hvrstyle = {
@@ -51,35 +51,8 @@ function Portfolio() {
 			>
 				<div className="sticky">
 					<div>
-						<div
-							style={{
-								fontSize: "60px",
-								letterSpacing: "-1.2px",
-								color: "rgba(93, 183, 222, 1)",
-								fontWeight: "bold",
-								display: "inline-block",
-							}}
-						>
-							<div style={{ marginTop: "20px" }}>
-								Hari Bheesetti
-							</div>
-							{/* <span class="word">
-								<span class="letter">H</span>
-								<span class="letter">a</span>
-								<span class="letter">r</span>
-								<span class="letter">i</span>
-							</span>
-							<span class="word">
-								<span class="letter">B</span>
-								<span class="letter">h</span>
-								<span class="letter">e</span>
-								<span class="letter">e</span>
-								<span class="letter">s</span>
-								<span class="letter">e</span>
-								<span class="letter">t</span>
-								<span class="letter">t</span>
-								<span class="letter">i</span>
-							</span> */}
+						<div id="Magic">
+							<span>Hari</span> <span>Bheesetti</span>
 						</div>
 						<div
 							style={{
@@ -154,28 +127,26 @@ function Portfolio() {
 				>
 					<div className="about">
 						<p>
-							About Back in 2016, I decided to try my hand at an
-							elective coding class in high school. One of my
-							first assignmets in this class was to make a simple
-							tic-toe game, and during the process of building I
-							learned the importance of ";". After a few hours of
-							struggling, there it was my first working program,
-							its safe to say I was hooked.
+							In 2016, I decided to try my hand at an elective
+							computer science class in high school. One of my
+							first assignments in this class was to make a simple
+							tic-toe game, and during the process of building it
+							I learned the importance of ";". I felt a rush of
+							excitement and pride as I watched the game run
+							smoothly. From that moment on, I was hooked on the
+							thrill of solving problems and creating new things
+							through programming.
 						</p>
 						<p style={{ marginTop: "1rem" }}>
-							Fast forward to today, I've recetly graduated from
-							the{" "}
-							<span>
-								University of Alberta with a Computer Science
-								degree.
-							</span>{" "}
-							I've had the privilege of making software for a
-							Local buissness, University, and a startup. I most
-							enjoy building software that is intuitive, secure
-							and pleasing to the eye. As I am entering the early
-							stages of my career, I am looking for opportunities
-							to learn from a team that is passionate about
-							building great software.
+							Fast forward to today. I've recently graduated from
+							the University of Alberta with a Computer Science
+							degree. I've had the privilege of making software
+							for a local business, a university, and a startup. I
+							most enjoy building intuitive software that is
+							secure and pleasing to the eye. As I am entering the
+							early stages of my career, I am looking for
+							opportunities to learn from a team that is
+							passionate about building high-quality software.
 						</p>
 						<p style={{ marginTop: "1rem" }}>
 							When I’m not at the computer, I’m usually biking,
@@ -190,9 +161,29 @@ function Portfolio() {
 								fontSize: "35px",
 								fontWeight: "bold",
 								color: "rgba(93, 183, 222, 1)",
+								display: "inline-block",
 							}}
 						>
-							Experience
+							Experience |
+							<span
+								style={hover7}
+								onMouseEnter={() =>
+									setHover7({
+										fontStyle: "italic",
+										textDecoration: "underline",
+									})
+								}
+								onMouseLeave={() =>
+									setHover7({ fontStyle: "italic" })
+								}
+								onClick={() =>
+									window.open(
+										"https://drive.google.com/file/d/1jCTkO__6xQG5tnETpFMa3TG0H5Lze0uN/view?usp=sharing"
+									)
+								}
+							>
+								View Full Resume
+							</span>
 						</p>
 						<div
 							className="expele"
@@ -219,19 +210,16 @@ function Portfolio() {
 										style={{
 											marginLeft: "3px",
 											position: "absolute",
-											bottom: "3px",
 										}}
 									/>
 								</p>
 								<p>
-									Built and deployed a job management software
-									for a local business. worked closely with
-									different teams to ensure the software met
-									the client's needs. Since I was a sole
-									developer on this project I was responsible
-									for the entire stack. Some key functions
+									Built and deployed job management software
+									for a local business. Developed software in
+									close collaboration with various teams to
+									meet the client's needs. Some key functions
 									include user authentication, job tracking,
-									and a dashboard for mannaging active jobs.
+									and a dashboard for managing active jobs.
 								</p>
 
 								<ul
@@ -274,17 +262,16 @@ function Portfolio() {
 										style={{
 											marginLeft: "3px",
 											position: "absolute",
-											bottom: "3px",
 										}}
 									/>
 								</p>
 								<p>
 									Convert Existing websites into Windows and
-									MacOS applications. Developed and extensive
-									test suite for the apps to ensure they were
-									bug free. Worked with mulitple teams to
-									ensure the product meets the client's
-									neeeds.
+									MacOS applications. Developed a
+									comprehensive test suite for the apps to
+									ensure they were bug-free. Worked with
+									multiple teams to ensure the product meets
+									the needs.
 								</p>
 
 								<ul
@@ -327,7 +314,6 @@ function Portfolio() {
 										style={{
 											marginLeft: "3px",
 											position: "absolute",
-											bottom: "3px",
 										}}
 									/>
 								</p>
@@ -356,18 +342,6 @@ function Portfolio() {
 								</ul>
 							</div>
 						</div>
-						<p
-							style={hover7}
-							onMouseEnter={() => setHover7(hvrstyle)}
-							onMouseLeave={() => setHover7(nonhvrstyle)}
-							onClick={() =>
-								window.open(
-									"https://drive.google.com/file/d/1jCTkO__6xQG5tnETpFMa3TG0H5Lze0uN/view?usp=sharing"
-								)
-							}
-						>
-							View Full Resume
-						</p>
 					</div>
 
 					<div className="Projects">
@@ -394,12 +368,12 @@ function Portfolio() {
 									style={hover3}
 									onClick={() => navigate("disclaimer/")}
 								>
-									Job Management | Demo
+									Job Management | Screenshots
 									<HiOutlineExternalLink
 										style={{
 											marginLeft: "3px",
 											position: "absolute",
-											bottom: "3px",
+											bottom: "0px",
 										}}
 									/>
 								</p>
@@ -449,7 +423,7 @@ function Portfolio() {
 										style={{
 											marginLeft: "3px",
 											position: "absolute",
-											bottom: "3px",
+											bottom: "0px",
 										}}
 									/>
 								</p>
