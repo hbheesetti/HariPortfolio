@@ -156,14 +156,7 @@ function Portfolio() {
 					</div>
 
 					<div className="Exp">
-						<p
-							style={{
-								fontSize: "35px",
-								fontWeight: "bold",
-								color: "rgba(93, 183, 222, 1)",
-								display: "inline-block",
-							}}
-						>
+						<p className="title">
 							Experience |
 							<span
 								style={hover7}
@@ -345,15 +338,7 @@ function Portfolio() {
 					</div>
 
 					<div className="Projects">
-						<p
-							style={{
-								fontSize: "35px",
-								fontWeight: "bold",
-								color: "rgba(93, 183, 222, 1)",
-							}}
-						>
-							Projects
-						</p>
+						<p className="title">Projects</p>
 						<div
 							className="expele"
 							onMouseEnter={() => setHover3(hvrstyle)}

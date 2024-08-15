@@ -356,3 +356,17 @@
 		background-position: -200% center;
 	}
 }
+
+.title {
+	animation: pan 3s linear infinite;
+	background: linear-gradient(to right, purple, violet, pink, purple);
+	background-size: 200%;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	white-space: nowrap;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: -1.2px;
+	display: inline-block;
+	margin-top: 20px;
+}
