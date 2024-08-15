@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HariPortfolio/static/css/main.d5155853.css",
-    "main.js": "/HariPortfolio/static/js/main.6b38bb0e.js",
+    "main.css": "/HariPortfolio/static/css/main.a3a8340c.css",
+    "main.js": "/HariPortfolio/static/js/main.936e1654.js",
     "static/js/453.1407b060.chunk.js": "/HariPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/Screenshot (11).png": "/HariPortfolio/static/media/Screenshot (11).42d3dbed1271b661e821.png",
     "static/media/Screenshot (9).png": "/HariPortfolio/static/media/Screenshot (9).d879cee15e49d8b4da60.png",
@@ -20,12 +20,12 @@
     "static/media/inconsolata-vietnamese-400-normal.woff2": "/HariPortfolio/static/media/inconsolata-vietnamese-400-normal.22f36d4ded7995a21f3e.woff2",
     "static/media/inconsolata-vietnamese-400-normal.woff": "/HariPortfolio/static/media/inconsolata-vietnamese-400-normal.e5e7f8cea30d31943ace.woff",
     "index.html": "/HariPortfolio/index.html",
-    "main.d5155853.css.map": "/HariPortfolio/static/css/main.d5155853.css.map",
-    "main.6b38bb0e.js.map": "/HariPortfolio/static/js/main.6b38bb0e.js.map",
+    "main.a3a8340c.css.map": "/HariPortfolio/static/css/main.a3a8340c.css.map",
+    "main.936e1654.js.map": "/HariPortfolio/static/js/main.936e1654.js.map",
     "453.1407b060.chunk.js.map": "/HariPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5155853.css",
-    "static/js/main.6b38bb0e.js"
+    "static/css/main.a3a8340c.css",
+    "static/js/main.936e1654.js"
   ]
 }
